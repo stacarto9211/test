@@ -1,0 +1,40 @@
+조장주소
+http://github.com/mihyun510/javaexam.git
+
+
+
+
+작업순서
+1.조장이 폴더생성 gitTeam1
+2.git init .git이라는 숨김폴더생성
+3.vim test.txt 파일생성
+3-1. 연결 git clone 주소
+3-2 원격저장소를추가(동기화 git remote add origin 주소
+4.git add . <-모두다올릴때
+git add 파일명.확장자
+5.git commit -m "메세지"
+
+서버(GitHub)
+6.git push origin master
+          (디폴트) (디폴트의 브런치)
+7.깃허브사이트 새로고침
+8 insights 확인 
+9git clone 주소(조장꺼)git remote add origin 주소
+10 git remote add origin 주소
+11git pull origin master
+
+
+clone를하면 .git까지 파일을 똑같이 복사한다 
+remote 경로설정?
+
+인스턴스화를 하면 생성자가 호출된다하였다.
+생성자도 여러개 가질수 있었다
+스트링네임을썻었다
+ABC테스트를 썻음
+생성자도 메소드처럼 파라미터를 가질수 있다.
+생성자가 전역변수에대한 초기화를 담당한다 
+
+public BaseBallGameEvent(BaseBallGameView bbView) {
+BaseBallGameView bbView = null;
+	BaseBallGameLogic bbLogic = new BaseBallGameLogic();
+이부분
